@@ -1,24 +1,11 @@
 
 .main{
     position: relative;
-    max-width: 1200px;
-    height: 738px;
+    max-width: 100vw;
+    height: 102vh;
     background-color: #8CC461;
-    /*background-color: #8CC461;
-    max-width: 1280px;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;*/
 }
 .score-board{
-    /*width: 800px;
-    height: 158px;
-    border: 2px solid #FFFFFF;
-    border-radius: 13px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;*/
     position: absolute;
     width: 800px;
     height: 158px;
@@ -45,12 +32,7 @@
     letter-spacing: 0.1em;
 }
 .comp-score-card{
-    /*background: #FFFFFF;
-    border-radius: 9px;
-    width: 139px;
-    height: 128px;
-    margin: 15px;
-    text-align: center;*/
+
     position: absolute;
     width: 139px;
     height: 128px;
@@ -89,22 +71,8 @@
     color: #252525;
     margin: 0;
 }
-/*.buttons{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    max-width: 500px;
-    height: 800px;
-}*/
 
 .rock{
-    /*width: 110px;
-    height: 110px;
-    border: 16px solid #0074B6;
-    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
-    border-radius: 60px;
-    text-align: center;
-    margin:70px;*/
     position: absolute;
     width: 110px;
     height: 110px;
@@ -116,12 +84,6 @@
 
 }
 .paper{
-    /*width: 110px;
-    height: 110px;
-    border: 16px solid #BD00FF;
-    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
-    border-radius: 60px;
-    margin: 70px;*/
     
     position: absolute;
     width: 110px;
@@ -137,12 +99,7 @@
 
 }
 .scissor{
-    /*width: 110px;
-    height: 110px;
-    border: 16px solid #FFA943;
-    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
-    border-radius: 60px;
-    margin-left:187px;*/
+
     position: absolute;
     width: 110px;
     height: 110px;
@@ -274,10 +231,10 @@
 #replay{
     display: none;
     position: absolute;
-    width: 174px;
-    height: 44px;
-    left: 570px;
-    top: 547px;
+    width: 250px;
+    height: 35px;
+    left: 510px;
+    top: 454px;
     background: #FFFFFF;
     border: none;
     border-radius: 9px;
@@ -400,6 +357,7 @@
 }
 #congratsPage{
     display: none;
+    position:absolute;
 }
 #congratsPagePlayAgainBtn{
     position: absolute;
